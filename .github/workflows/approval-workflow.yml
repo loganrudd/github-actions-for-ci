@@ -1,2 +1,5 @@
 name: The best approval workflow in the whole wide world
 on: pull_request_review
+jobs:
+  labelWhenApproved:
+    runs-on: ubuntu-latest
