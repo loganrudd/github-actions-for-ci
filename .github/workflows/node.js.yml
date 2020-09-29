@@ -24,6 +24,7 @@ jobs:
         with:
     needs: build
           path: public/
+  test:
     runs-on: ubuntu-latest
     strategy:
       matrix:
